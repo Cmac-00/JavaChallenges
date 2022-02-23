@@ -1,0 +1,13 @@
+As part of an application you have be tasked to design a Java class to represent the following selected data from an Amazon book ...
+
+title, author, price, pages (number of),  ISBN10,  average customer rating, language
+
+Your challenge …
+
+Create a UML class diagram to represent the data to be represented
+Code that class – create a default and a constructor that accepts all arguments.
+Test that class with actual data (two books) Test data 1
+https://www.amazon.co.uk/Body-Guide-Occupants-Bill-Bryson/dp/0857522418/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
+
+and Test data 2 https://www.amazon.co.uk/Ulysses-Wordsworth-Classics-James-Joyce/dp/1840226358/ref=sr_1_1?crid=2IZOTAY969UTL&keywords=james+joyce+ulysses&qid=1573898228&s=books&sprefix=james+joyce+u%2Cstripbooks%2C155&sr=1-1
+Write a method with the test class that will compare two books and output to screen the longest read… (based on number of pages)
