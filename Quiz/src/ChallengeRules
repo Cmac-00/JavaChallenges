@@ -1,0 +1,21 @@
+Write a program that'll have the expected actions and output for a simple quiz. 
+
+Actions:
+
+1. The user should be given a random question from the question Array (see below)
+
+2. User responds
+
+3. User answer should be checked against the answer in the answer Array (see below)
+
+4. User is notified of outcome
+
+5. User is prompted to continue (get another question) or quit
+
+Expected output
+Use these arrays for the questions and answers (the index of the question corresponds to the index of the answer) eg sampleQuestions[0] has the answer sampleAnswers[0]
+
+// declaring the questions and answers
+String[] sampleQuestions = { "Largest planet ? ", "Fastest Animal ? ", "Capital of Peru?",
+"Roman god of War ?" };
+String[] sampleAnswers = { "Jupiter", "Cheetah", "Lima", "Mars" };
