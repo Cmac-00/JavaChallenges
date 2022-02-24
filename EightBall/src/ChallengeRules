@@ -1,0 +1,12 @@
+Create an application that will prompt the user to ask a question... 
+
+the application will then output (randomly) one of the following responses.
+
+As I see it, yes.
+Ask again later.
+Better not tell you now.
+Cannot predict now.
+Concentrate and ask again.
+Don't count on it.
+It is certain.
+It is decidedly so.
