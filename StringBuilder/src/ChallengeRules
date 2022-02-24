@@ -1,0 +1,6 @@
+Using Strings only, create a program that will reverse a given 
+string…
+
+1. Put the string into an array of chars 
+2. Reverse the array of chars
+3. check if the string was a palindrome. 
