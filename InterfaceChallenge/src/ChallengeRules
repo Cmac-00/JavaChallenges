@@ -1,0 +1,48 @@
+1.
+Create an interface IMyShape.java to represent a shape.  The interface should include the method signatures
+
+               double calculatePerimeter();
+
+               double calculateArea();
+
+               String getShapeName();
+
+2.
+Develop three classes, each of which implements the IMyShape interface.  The classes should represent a circle, square and rectangle respectively.  Choose appropriate instance variables for each class and initialise these in the constructor of each.
+
+ 
+
+3.
+Create a class to for an ad hoc test of the implementations. 
+
+Write a method of the class randomly generate ten shapes (a mixture of circles, squares and rectangles) and store them in an array or arraylist.
+
+Few hints :
+
+//array to hold shapes of all three types
+IMyShape myShape[] = new IMyShape[NUMBER_OF_SHAPES];
+
+so.. this may be useful...
+
+
+4.
+Write a method  that displays the name, area and perimeter of each shape in the array / arraylist.
+
+Remember we are programming to the interface so ... so the output loop will look something like this...
+
+for (IMyShape shape : myShape){
+    System.out.print(shape.getShapeName());
+    etc....
+
+}
+
+ 
+
+5.
+In the same method output the details for each specific shape eg output the circle radius, the square's side & the rectangle's breadth and height.
+
+Hint : 
+
+if (shape instanceof MySquare) {
+                MySquare square = (MySquare)shape;
+                System.out.printf(" Square length %.2f",square.getLength());
