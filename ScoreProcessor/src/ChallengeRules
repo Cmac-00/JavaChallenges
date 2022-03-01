@@ -1,0 +1,28 @@
+Score processor
+
+Given the results for the first number of weeks of a football league season write a program that will process the scores and output the statistics for each team (ordered by Team name) and the current league standings (ordered by points).   The results are provided in a text file (Results.txt  Download Results.txt).
+
+The result for each match is guaranteed to be in the format:
+
+<Team1 Team1Score Team2Score Team2>
+
+e.g. Arsenal  4  Spurs  0.                   
+
+Note : Each team name is one string (i.e. no spaces). 
+
+Development suggestions
+
+Develop a class to store the details for each team to support the application output, e.g. Team name, Played, Goals For, Goals Against, Win, Draw, Loss and Total Points.
+
+Read each line (match result) in the text file.
+
+Use a Collections Map
+E.g. private static Map<String, Team> teams = new HashMap<String, Team>();
+(String being the team name and Team being the class developed in step 1.)
+
+
+Process the results – (There are 3 points for a win, 1 for a draw and 0 for a loss.)
+
+To output the individual team statistics, order the values (alphabetically) by team name, hint use a SortedSet 
+
+To output the League tables convert the values in the HashMap to a List Develop and use a comparator to order (sort) by Points.

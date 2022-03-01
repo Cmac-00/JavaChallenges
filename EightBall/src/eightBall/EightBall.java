@@ -68,6 +68,8 @@ public class EightBall {
 		default:
 			System.out.println("I simply don't know !");
 		}
+		
+		scanner.close();
 
 	}
 }
